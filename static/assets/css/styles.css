@@ -1,0 +1,190 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --white: #fff;
+    --dark: #34344e;
+    --dark2: #3a415a;
+    --dark3: #566981;
+    --dark4: #89a7b1;
+    --dark5: #cbdad5;
+    --dark6: #2f2f46;
+    --green: #0c6914;
+    --green2: #12831c;
+}
+
+body {
+    height: 100vh;
+    background-size: 400%;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    background-color: #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    gap: 8px;
+}
+
+.logo img {
+    width: 150px;
+
+}
+
+.logo h1 {
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    gap: 4rem;
+    height: 12vh;
+    min-width: 100%;
+    justify-content: center;
+    background-color: var(--green);
+    overflow-x: hidden;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.navbar a:hover {
+    color: #c0c0c0;
+    transition: .3s;
+}
+
+section {
+    margin: 20px 20px 20px;
+    padding: 20px;
+    background-color: #86b68acc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-top: 0;
+    color: #000000;
+    font-size: 32px;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+/* ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #eaeaea;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+} */
+
+footer {
+    background-color: var(--green);
+}
+
+
+.footer-container{
+    width: 100%;
+    padding: 40px 25px 15px ;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.social-icons a:hover{
+    background-color: #111;
+    transition: 0.3s;
+}
+
+.social-icons a:hover i{
+    color: white;
+    transition: 0.3s;
+}
+
+.footer-nav{
+    margin: 30px 0;
+}
+
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footer-nav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1em;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.footer-nav ul li a:hover{
+    color: #c0c0c0;
+}
+
+.footer-bottom{
+    background-color: #136118;
+    padding: 5px;
+    
+    text-align: center;
+}
+
+.footer-bottom p{
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+}
