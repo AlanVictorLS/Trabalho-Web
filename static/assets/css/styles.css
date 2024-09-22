@@ -98,6 +98,87 @@ section img {
     border-radius: 5px;
 }
 
+.about {
+    background: url("../images/aedes2.jpg") no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.about::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3); 
+    z-index: 1;
+}
+
+.learn-more {
+    z-index: 2;
+    max-width: 600px;
+}
+
+.about h1 {
+    font-size: 3em;
+}
+
+.about p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.fbtn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: var(--green2);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.fbtn:hover {
+    background-color: var(--green);
+    transition: 0.2s;
+}
+
+.scroll-top {
+    margin-top: 8%;
+    position: relative;
+}
+
+#scroll-btn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    border: 0 solid #e4e4e4;
+    outline: none;
+    background-color: #e4e4e4;
+    color: #000;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px;
+    -webkit-box-shadow: 1px 0px 15px -3px #000000; 
+    box-shadow: 1px 0px 15px -3px #000000;
+}
+
+#scroll-btn i {
+    font-size: 24px;
+}
+
+#scroll-btn:hover {
+    background-color: #ccc;
+    transition: .2s;
+}
+
 /* ul {
     list-style-type: none;
     padding: 0;
