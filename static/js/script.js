@@ -1,4 +1,3 @@
-/* scroll para o topo*/
 let scrollButton = document.getElementById("scroll-btn");
 scrollButton.addEventListener("click", scrollToTop);
 

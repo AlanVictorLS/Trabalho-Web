@@ -122,7 +122,7 @@ iframe{
 
 }
 p{
-    font-weight: bold;
+    font-weight: bolder;
 }
 .about::before {
     content: '';
@@ -142,11 +142,13 @@ p{
 
 .about h1 {
     font-size: 3em;
+    color: white;
 }
 
 .about p {
     margin-top: 10px;
     font-size: 1.2em;
+    color: white;
 }
 
 .fbtn {
@@ -193,6 +195,7 @@ p{
     background-color: #ccc;
     transition: .2s;
 }
+
 
 /* ul {
     list-style-type: none;
