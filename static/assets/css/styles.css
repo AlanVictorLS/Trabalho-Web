@@ -19,6 +19,7 @@
 }
 
 body {
+    text-align: justify;
     height: 100vh;
     background-size: 400%;
     overflow-x: hidden;
