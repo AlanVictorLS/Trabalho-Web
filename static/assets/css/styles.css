@@ -121,6 +121,8 @@ iframe{
 }
 p{
     font-weight: bolder;
+    text-align: justify;
+    text-indent: 20px;
 }
 .about::before {
     content: '';
